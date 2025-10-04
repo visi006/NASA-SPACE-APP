@@ -1,1 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Stories — Space Weather Through the Eyes of Earthlings</title>
+    <meta name="description" content="Stellar Stories — a short illustrated story that explains space weather in plain language for all ages.">
+    
+    <meta property="og:title" content="Stellar Stories — Space Weather Through the Eyes of Earthlings">
+    <meta property="og:description" content="Stellar Stories — a short illustrated story that explains space weather in plain language for all ages.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./assets/hero.svg">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Stellar Stories — Space Weather Through the Eyes of Earthlings">
+    <meta name="twitter:description" content="Stellar Stories — a short illustrated story that explains space weather in plain language for all ages.">
+    <meta name="twitter:image" content="./assets/hero.svg">
+    
+    <link rel="stylesheet" href="./styles/main.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Spectral:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Main navigation">
+            <div class="nav-brand">
+                <img src="./assets/icon-sun.svg" alt="Sun icon" class="brand-icon">
+                <span class="brand-text">Stellar Stories</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#story" class="nav-link">Story</a></li>
+                    <li><a href="#illustrations" class="nav-link">Illustrations</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#resources" class="nav-link">Resources</a></li>
+                </ul>
+                
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" aria-pressed="false">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+            
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+        </nav>
+    </header>
 
+    <main role="main">
+        <section id="home" class="hero" role="banner">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Stellar Stories: Space Weather Through the Eyes of Earthlings</h1>
+                    <p class="hero-subtitle">A simple, factual story for all ages — illustrated.</p>
+                    <p class="hero-lead">Discover how the Sun's cosmic moods affect life on Earth through an engaging story told from the Sun's perspective.</p>
+                    <a href="#story" class="hero-cta">Read the Story</a>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-card glass">
+                        <img src="./assets/hero.svg" alt="Illustration of the Sun with aurora arcs extending toward Earth" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="story" class="story-section" role="article">
+            <div class="container">
+                <div class="story-card glass">
+                    <div class="story-controls">
+                        <button id="read-aloud" class="control-btn" aria-label="Read story aloud">
+                            <span class="control-icon">🔊</span>
+                            Listen
+                        </button>
+                        <div class="font-controls">
+                            <button id="decrease-font" class="control-btn" aria-label="Decrease font size">A-</button>
+                            <button id="increase-font" class="control-btn" aria-label="Increase font size">A+</button>
+                        </div>
+                    </div>
+                    
+                    <article class="story-content" id="story-content">
+                        <h2>Stellar Stories: Space Weather Through the Eyes of Earthlings</h2>
+                        
+                        <p>Hello, Earthlings! I'm the **Sun**, a giant ball of glowing gas, and I do more than just shine. Sometimes, I send out bursts of energy—this is called **space weather**.</p>
+                        
+                        <p>Space weather happens when I throw out solar flares, solar winds, and big blasts called coronal mass ejections (CMEs). These travel across space and sometimes reach Earth.</p>
+                        
+                        <p>When my space weather touches Earth's sky, it paints glowing curtains of green, purple, and red. You call them **auroras**. People travel far just to see them dance.</p>
+                        
+                        <p>We are currently in a very active part of my cycle, meaning these events are happening more often. This is a thrilling time for sky-gazers, but it's also when my powerful solar winds require the most attention from your space agencies and technology providers.</p>
+                        
+                        <p>But space weather can be tricky too. My storms can:</p>
+                        <ul>
+                            <li>confuse satellites,</li>
+                            <li>make GPS maps go wrong,</li>
+                            <li>cause pilots to lose radio for a while,</li>
+                            <li>and even shake up power grids.</li>
+                        </ul>
+                        
+                        <p>Different people on Earth feel my moods:</p>
+                        <ul>
+                            <li>Astronauts put on special protection from radiation.</li>
+                            <li>Farmers check satellites to guide their crops.</li>
+                            <li>Pilots watch the skies for safe flights.</li>
+                            <li>Scientists and engineers study my storms to protect everyone.</li>
+                        </ul>
+                        
+                        <p>Scientists use a fleet of robotic satellites—my eyes and ears—to watch me constantly. They track every solar flare and coronal mass ejection, allowing industries like airlines and power grids to prepare hours, sometimes days, in advance. This preparation is key to a smooth Earth life.</p>
+                        
+                        <p>Space weather has always been here, but today it's more important than ever—because Earth depends on technology. The more you use satellites, electricity, and the internet, the more my storms matter.</p>
+                        
+                        <p>Don't worry—I'm not trying to be mean. I just live an active, fiery life. And Earth's scientists are listening to my stories every day, finding ways to keep you safe.</p>
+                        
+                        <p>So next time you see the sky glow with auroras, remember: it's my way of saying hello—and a reminder that we are all connected through space weather.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="illustrations" class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Illustrations</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item glass" tabindex="0" role="button" aria-label="Aurora illustration - Click to view larger">
+                        <img src="./assets/illustration-1.svg" alt="Beautiful aurora borealis dancing across the night sky" class="gallery-image">
+                        <p class="gallery-caption">Aurora Borealis - Nature's light show</p>
+                    </div>
+                    <div class="gallery-item glass" tabindex="0" role="button" aria-label="Solar flare illustration - Click to view larger">
+                        <img src="./assets/illustration-2.svg" alt="Solar flare erupting from the Sun's surface" class="gallery-image">
+                        <p class="gallery-caption">Solar Flare - The Sun's dramatic outburst</p>
+                    </div>
+                    <div class="gallery-item glass" tabindex="0" role="button" aria-label="Space weather impact illustration - Click to view larger">
+                        <img src="./assets/hero.svg" alt="Space weather affecting Earth's technology and satellites" class="gallery-image">
+                        <p class="gallery-caption">Space Weather Impact - Technology meets cosmic forces</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="impact-section">
+            <div class="container">
+                <h2 class="section-title">Who's Affected by Space Weather?</h2>
+                <div class="impact-grid">
+                    <div class="impact-card glass">
+                        <div class="impact-icon">🚀</div>
+                        <h3>Astronauts</h3>
+                        <p>Special protection from radiation</p>
+                    </div>
+                    <div class="impact-card glass">
+                        <div class="impact-icon">🌾</div>
+                        <h3>Farmers</h3>
+                        <p>Check satellites to guide their crops</p>
+                    </div>
+                    <div class="impact-card glass">
+                        <div class="impact-icon">✈️</div>
+                        <h3>Pilots</h3>
+                        <p>Watch the skies for safe flights</p>
+                    </div>
+                    <div class="impact-card glass">
+                        <div class="impact-icon">🔬</div>
+                        <h3>Engineers</h3>
+                        <p>Study storms to protect everyone</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="protection-section">
+            <div class="container">
+                <h2 class="section-title">How We Protect Ourselves</h2>
+                <div class="accordion">
+                    <div class="accordion-item glass">
+                        <button class="accordion-header" aria-expanded="false" aria-controls="accordion-1">
+                            <span>Early Warning Systems</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content" id="accordion-1">
+                            <p>Scientists monitor the Sun 24/7 to predict space weather events and issue warnings to affected industries.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item glass">
+                        <button class="accordion-header" aria-expanded="false" aria-controls="accordion-2">
+                            <span>Satellite Hardening</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content" id="accordion-2">
+                            <p>Satellites are designed with radiation-resistant components and can enter safe mode during severe space weather.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item glass">
+                        <button class="accordion-header" aria-expanded="false" aria-controls="accordion-3">
+                            <span>Power Grid Measures</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content" id="accordion-3">
+                            <p>Power companies can adjust operations and install protective equipment to minimize space weather impacts.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item glass">
+                        <button class="accordion-header" aria-expanded="false" aria-controls="accordion-4">
+                            <span>Personal Curiosity</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content" id="accordion-4">
+                            <p>Watch for auroras in your area and stay informed about space weather through apps and websites!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Stellar Stories</h3>
+                    <p>Educational content about space weather for all ages.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://www.nasa.gov/mission_pages/sunearth/spaceweather/">NASA Space Weather</a></li>
+                        <li><a href="https://www.swpc.noaa.gov/">NOAA Space Weather</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#" aria-label="Follow us on Twitter">Twitter</a></li>
+                        <li><a href="#" aria-label="Like us on Facebook">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Stellar Stories. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" aria-hidden="true">
+        <div class="lightbox-overlay"></div>
+        <div class="lightbox-content">
+            <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+            <img src="" alt="" class="lightbox-image" id="lightbox-image">
+            <p class="lightbox-caption" id="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
